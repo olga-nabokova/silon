@@ -1,0 +1,40 @@
+.headerTop{
+  position: relative;
+  z-index: 51;
+  background: #fef7f6;
+  height: 30px;
+  font-family: 'Conv_Roboto-Light', sans-serif;
+  font-size: 11px;
+  line-height: 2.5;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact{
+  display: flex;
+  &-phone{
+    display: flex;
+    margin-right: 35px;
+  }
+  &-email{
+    display: flex;
+  }
+  &__text{
+    text-transform: uppercase;
+    margin-right: 3px;
+  }
+
+}
+.setting{
+    text-transform: uppercase;
+    margin: 0 15px;
+  &:last-child{
+    margin-right: 0;
+  }
+  &s{
+    display: flex;
+    justify-content: space-between;
+  }
+}

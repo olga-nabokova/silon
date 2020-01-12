@@ -1,0 +1,15 @@
+.featureProduct{
+  padding: 140px 0 110px 0;
+
+  &__title{
+    text-align: center;
+  }
+
+  &__cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+
+}

@@ -1,0 +1,27 @@
+include ../mixin/navLink
+include ../mixin/iconLink
+include ../mixin/svgIcon
+include svg/svg
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title="Silon"
+        link(rel="stylesheet" href="../sass/style.css")
+    body
+        include header/headerTop
+        include header/header
+        include banner
+        include featuredProduct
+        include offer
+        include mostPopular
+        include feature
+        include trendingProduct
+        include silonJournal
+        include followUs
+        include footer
+        include copyright
+        script(src="../../node_modules/jquery/dist/jquery.js")
+        script(src="../js/script.js")

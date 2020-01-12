@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACX,OAAO,EAAE,WAAW;EACpB,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,UAAU",
+"sources": ["card-follow.scss"],
+"names": [],
+"file": "card-follow.css"
+}

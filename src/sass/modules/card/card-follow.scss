@@ -1,0 +1,25 @@
+.card-follow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  &-block{
+    display: flex;
+    flex-basis: 23%;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 250px;
+    background: #afafaf;
+    cursor: pointer;
+    transition: background 1s ease;
+    //margin: 0 30px 20px 0;
+    //&:nth-child(4n){
+    //  margin-right: 0;
+    //}
+    &:hover{
+      background: #e16868;
+    }
+  }
+}

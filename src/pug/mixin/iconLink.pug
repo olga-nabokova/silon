@@ -1,0 +1,15 @@
+mixin iconLink(className, link, name, iconLink)
+    if(iconLink === '#stars')
+        li.nav__item-stars
+            +svgIcon(className, link, name, iconLink)
+    else if(className === 'icon-block')
+            li.nav__item-circle
+                +svgIcon(className, link, name, iconLink)
+    else if(className==='iconSocial')
+        li.nav__item-social
+            +svgIcon(className, link, name, iconLink)
+    else
+          li.nav__item-icon
+              +svgIcon(className, link, name, iconLink)
+
+

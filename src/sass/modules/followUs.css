@@ -1,0 +1,11 @@
+.followUs {
+  padding: 140px 0; }
+  .followUs__title {
+    text-align: center; }
+  .followUs__cards {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px; }
+
+/*# sourceMappingURL=followUs.css.map */

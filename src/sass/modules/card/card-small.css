@@ -1,0 +1,24 @@
+.card-small {
+  text-align: center;
+  margin-right: 30px; }
+  .card-small:nth-child(4n) {
+    margin-right: 0; }
+  .card-small-block {
+    width: 262px;
+    height: 341px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: #f0f2f1;
+    padding-bottom: 55px; }
+    .card-small-block:hover {
+      background: #7e987a; }
+  .card-small-text {
+    font-family: 'Conv_Roboto-Regular', sans-serif;
+    line-height: 1.15;
+    opacity: 0.5;
+    margin-top: 25px; }
+
+/*# sourceMappingURL=card-small.css.map */

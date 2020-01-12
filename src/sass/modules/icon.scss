@@ -1,0 +1,45 @@
+.icon{
+  width: 16px;
+  height: 16px;
+  &-block{
+    fill: #000000;
+
+    &:hover{
+      fill: #fff;
+    }
+  }
+
+  &-stars{
+    fill: #ff5353;
+
+    &:hover{
+      fill: #7e987a;
+    }
+  }
+
+  &Follow{
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+  }
+
+  &Social{
+    &:hover{
+      fill: #fff;
+    }
+  }
+
+  &Apple{
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  &Android{
+    fill: #ff5353;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+}

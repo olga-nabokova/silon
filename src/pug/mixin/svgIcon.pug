@@ -1,0 +1,4 @@
+mixin svgIcon(className, link, name, iconLink)
+    a(class=className, href=link)=name
+        svg.icon(class=className)
+            use.icon__link(xlink: href=iconLink)

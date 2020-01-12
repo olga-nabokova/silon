@@ -1,0 +1,10 @@
+.featureProduct {
+  padding: 140px 0; }
+  .featureProduct__title {
+    text-align: center; }
+  .featureProduct__cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 80px; }
+
+/*# sourceMappingURL=silonJournal.css.map */

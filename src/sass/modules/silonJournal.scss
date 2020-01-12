@@ -1,0 +1,15 @@
+.silonJournal{
+  padding: 140px 0 0 0;
+
+  &__title{
+    text-align: center;
+  }
+
+  &__cards{
+    display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+}

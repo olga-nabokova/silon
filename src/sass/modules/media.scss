@@ -1,0 +1,161 @@
+@media(max-width: 1180px){
+ .banner-content{
+   display: flex;
+ }
+  .offer-content{
+    display: flex;
+  }
+}
+
+@media(max-width: 1160px){
+  .container{
+    padding: 0 50px;
+  }
+  .card-small{
+    flex-basis: 50%;
+  }
+  .card-follow-block{
+    flex-basis: 48%;
+  }
+  .feature-block{
+    flex-basis: 48%;
+  }
+}
+
+@media(max-width: 900px){
+  .nav__item{
+    margin-right: 35px;
+  }
+  .card{
+    flex-basis: 100%;
+  }
+  .card-post{
+    flex-basis: 100%;
+  }
+  .silonJournal__cards{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 830px) {
+  .nav__item{
+    margin-right: 19px;
+  }
+  .nav__item-icon {
+    margin-right: 13px;
+  }
+  .widget-info{
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 690px) {
+  .lock{
+    overflow: hidden;
+  }
+  .nav__menu{
+    position: fixed;
+    z-index: 1;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e16868;
+    overflow: auto;
+    padding: 80px 0 30px 0;
+    transition: all 0.7s ease;
+  }
+  .nav__active{
+    top: 0;
+  }
+  .nav__item{
+    margin: 0;
+  }
+  .nav{
+    height: 50px;
+    line-height: 3.5;
+
+    &__list-menu{
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .btn-menu{
+    display: block;
+  }
+  .card-small{
+    flex-basis: 100%;
+  }
+  .card-follow-block{
+    flex-basis: 100%;
+  }
+  .feature-block{
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .settings{
+    display: none;
+  }
+  html{
+    font-size: 75%; /* 12px */
+  }
+
+}
+
+@media (max-width: 560px) {
+  .footer-widget{
+    flex-basis: 100%;
+  }
+  .widget-info{
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  html {
+    font-size: 62.5%; /* 10px */
+  }
+  .container{
+    padding: 0 25px;
+  }
+  .banner{
+    padding: 40px 0 70px 0;
+  }
+  .featureProduct{
+    padding: 90px 0 60px 0;
+  }
+  .card-block{
+    max-width: 250px;
+    height: 340px;
+    padding-bottom: 20px;
+  }
+  .offer{
+    padding: 90px 0 70px 0;
+    &-content__text{
+      margin: 50px 0 30px;
+    }
+  }
+  .mostPopular{
+    padding: 90px 0 70px 0;
+  }
+  .trendingProduct{
+    padding: 90px 0 60px 0;
+  }
+  .silonJournal{
+    padding: 30px 0 0 0;
+  }
+  .card-post-block{
+    height: 250px;
+  }
+  .followUs{
+    padding: 90px 0 40px 0;
+  }
+  .footer{
+    padding: 10px 0 20px 0;
+  }
+  .copyright{
+    padding: 20px 0;
+  }
+}

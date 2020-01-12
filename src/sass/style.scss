@@ -1,0 +1,103 @@
+@import "fonts";
+@import "modules/header/headerTop";
+@import "modules/header/header";
+@import "modules/nav";
+@import "modules/icon";
+@import "modules/banner";
+@import "modules/button";
+@import "modules/featureProduct";
+@import "modules/card/card";
+@import "modules/card/card-small";
+@import "modules/card/card-post";
+@import "modules/card/card-follow";
+@import "modules/offer";
+@import "modules/mostPopular";
+@import "modules/feature";
+@import "modules/trendingProduct";
+@import "modules/silonJournal";
+@import "modules/followUs";
+@import "modules/footer/footer";
+@import "modules/copyright";
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 87.5%; /* 14px */
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  line-height: 2.1;
+  font-family: 'Conv_Roboto-Medium', sans-serif;
+}
+
+header, footer, section {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper, .container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+p{
+ margin: 0;
+
+}
+
+h1{
+  font-size: 4.28rem; /* 60px */
+  line-height: 1.17;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Conv_Roboto-Bold', sans-serif;
+  font-size: 2.57rem; /* 36px */
+  line-height: 0.45;
+  text-transform: uppercase;
+  margin: 0;
+}
+h3{
+  font-family: 'Conv_Roboto-Bold', sans-serif;
+  font-size: 1.42rem; /* 20px */
+  line-height: 1.5;
+}
+
+h4{
+  font-size: 1.14rem; /* 16px */
+  line-height: 1;
+  margin: 0;
+}
+
+h5{
+  font-size: 0.93rem; /* 13px */
+  margin: 0;
+}
+
+button{
+  padding: 0;
+  cursor: pointer;
+}
+
+@import "modules/media";

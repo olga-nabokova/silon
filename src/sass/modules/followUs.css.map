@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,OAAO,EAAE,OAAO;EAEhB,gBAAQ;IACN,UAAU,EAAE,MAAM;EAGpB,gBAAQ;IACN,OAAO,EAAE,WAAW;IACpB,eAAe,EAAE,aAAa;IAC9B,SAAS,EAAE,IAAI;IACf,UAAU,EAAE,IAAI",
+"sources": ["followUs.scss"],
+"names": [],
+"file": "followUs.css"
+}

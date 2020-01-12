@@ -1,0 +1,24 @@
+header.header
+    .container
+        .nav
+            .nav__logo
+                img(src="../../img/Silon.jpg")
+            .nav__burger
+                button.btn-menu
+                    span
+            .nav__menu
+                ul.nav__list.nav__list-menu
+                    +navLink('#', 'Home')
+                    +navLink('#', 'Shop')
+                    +navLink('#', 'Blog')
+                    +navLink('#', 'Products')
+                    +navLink('#', 'Brands')
+                    +navLink('#', 'Contact')
+            .nav__icon
+              ul.nav__list.nav__list-icon
+                +iconLink('', '#', '', '#search')
+                +iconLink('', '#', '', '#basket')
+                +iconLink('', '#', '', '#heart')
+
+
+

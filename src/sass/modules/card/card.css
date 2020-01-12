@@ -1,0 +1,20 @@
+.card {
+  flex: 34%;
+  text-align: center;
+  width: 360px;
+  height: 450px; }
+  .card-block {
+    width: 360px;
+    height: 450px;
+    background: #f0f2f1;
+    cursor: pointer;
+    transition: background 0.5s ease; }
+    .card-block:hover {
+      background: #7e987a; }
+  .card-text {
+    font-family: 'Conv_Roboto-Regular', sans-serif;
+    line-height: 1.15;
+    opacity: 0.5;
+    margin-top: 25px; }
+
+/*# sourceMappingURL=card.css.map */

@@ -1,0 +1,14 @@
+.followUs{
+  padding: 140px 0 140px 0;
+
+  &__title{
+    text-align: center;
+  }
+
+  &__cards{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+}
